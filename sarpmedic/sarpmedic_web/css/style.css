@@ -85,17 +85,17 @@ img.img-polaroid {
 	padding:0;
 }
 .topbar p{
-	margin:0;
+	margin-right: 33px;
 	display:inline-block;
 	font-size:14px;
-    color: #ffffff;
+    color: #080808;
 }
 .topbar p > i{
 	margin-right:5px;
 }
 .topbar p:last-child{
 	text-align:right;
-} 
+}
 header .navbar {
     margin-bottom: 0;
 }
@@ -257,7 +257,7 @@ header ul.nav li ul li a {
 
 
 .navbar .nav > li > a {
-  color: #909090;
+  color: #333333d9;
   text-shadow: none;
   border: 1px solid rgba(255, 255, 255, 0) !important;
 }
