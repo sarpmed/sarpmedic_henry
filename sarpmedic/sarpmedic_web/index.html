@@ -1,472 +1,631 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-<meta charset="utf-8">
-<title>sarpmedic | Home</title>
-<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<meta name="description" content="" />
-<!-- css -->
-<link href="css/bootstrap.min.css" rel="stylesheet" />
-<link href="css/flexslider.css" rel="stylesheet" />
-<link href="css/style.css" rel="stylesheet" />
-
-
-
-
-	<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
-
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>Sarpmedic | Home</title>
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <!-- Material Design Bootstrap -->
+    <link href="css/mdb.min.css" rel="stylesheet">
+    <!-- Your custom styles (optional) -->
+    <link href="css/style.css" rel="stylesheet">
 </head>
+
 <body>
-<div id="wrapper" class="home-page">
-	<!-- start header -->
-	<header>
-        <div class="navbar navbar-default navbar-static-top navbar-fixed-top">
-			<div class="topbar navbar-collapse">
-				<div class="container">
-					<div class="row">
-						<div class="col-md-12">
-							<p class="pull-left hidden-xs">SarpMedic Healthcare</p>
-							<p class="pull-right"><i class="fa fa-ambulance"></i>Emergency No. (+233) 223-456-789</p>
-						</div>
-					</div>
-				</div>
-			</div>
 
-			<div class="container">
-                <div class="navbar-header">
-                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                    </button>
+<nav class="navbar navbar-expand-lg navbar-dark primary-color navbar-fixed-top">
+    <a class="navbar-brand" href="#"><img src="img/overlays/navbar-logo.png"></a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown"
+            aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav">
+            <li class="nav-item active active_dec">
+                <a class="nav-link" href="#"><span class="nav-link-active">Home</span> <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">About Us</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Contact</a>
+            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="http://example.com" id="navbarDropdownMenuLink1" data-toggle="dropdown" aria-haspopup="true"
+                   aria-expanded="false">
+                    Screening
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                    <a class="dropdown-item" href="#">General</a>
+                    <a class="dropdown-item" href="#">Pre-wedding</a>
                 </div>
-                <div class="navbar-collapse collapse ">
-                    <ul class="nav navbar-nav">
-                        <li class="active"><a href="index.html">Home</a></li>
-						<li><a href="about.html">About Us</a></li>
-						<li><a href="contact.html">Contact</a></li>
-						<li class="dropdown">
-							<a href="#" data-toggle="dropdown" class="dropdown-toggle">Service<b class="caret"></b></a>
-							<ul class="dropdown-menu">
-								<li><a href="services.html">Content Here</a></li>
-								<li><a href="services.html">Content Here</a></li>
-								<li><a href="services.html">Content Here</a></li>
-								<li><a href="services.html">Content Here</a></li>
-								<li><a href="services.html">Content Here</a></li>
-								<li><a href="services.html">Content Here</a></li>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Ahenfo Health</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Book On</a>
+            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="http://example.com" id="navbarDropdownMenuLink2" data-toggle="dropdown" aria-haspopup="true"
+                   aria-expanded="false">
+                    Account
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                    <a class="dropdown-item" href="#">Sign in</a>
+                    <a class="dropdown-item" href="#">Sign up</a>
+                </div>
+            </li>
 
-							</ul>
-						</li>
-						<li><a href="">Ahenfo Health</a></li>
-                        <li><a href="">Book On</a></li>
+        </ul>
+    </div>
+</nav>
 
-						<li class="dropdown">
-							<a href="#" data-toggle="dropdown" class="dropdown-toggle">Account<b class="caret"></b></a>
-							<ul class="dropdown-menu">
-								<li><a href="signin.html">Sign In </a></li>
-								<li><a href="signup.html">Sign Up</a></li>
-							</ul>
-						</li>
-					</ul>
+
+<!--Carousel Wrapper-->
+<div id="carousel-example-2" class="carousel slide carousel-fade" data-ride="carousel">
+    <!--Indicators-->
+    <ol class="carousel-indicators">
+        <li data-target="#carousel-example-2" data-slide-to="0" class="active"></li>
+        <li data-target="#carousel-example-2" data-slide-to="1"></li>
+        <li data-target="#carousel-example-2" data-slide-to="2"></li>
+    </ol>
+    <!--/.Indicators-->
+    <!--Slides-->
+    <div class="carousel-inner" role="listbox">
+        <div class="carousel-item active">
+            <div class="view">
+                <img class="d-block w-100" src="img/overlays/carousel_2.png" alt="First slide">
+                <div class="mask flex-center waves-effect waves-light rgba-teal-strong">
+                    <ul>
+                        <li>
+                            <h3 class="h3-responsive" align="center">Healthcare to the optimum with speed</h3>
+                        </li>
+                        <li>
+                            <h5 class="h5-responsive" align="center">Track and monitor the progress of health in your without struggle.</h5>
+                        </li>
+                        <li>
+                            <button type="button" class="btn purple-gradient btn-lg cara-button_2">Health Prediction</button>
+                            <button type="button" class="btn peach-gradient btn-lg cara-button_1">Monitor Your Health Daily</button>
+                        </li>
+                    </ul>
                 </div>
             </div>
+            <!--<div class="carousel-caption">
+                <h3 class="h3-responsive">Light mask</h3>
+                <p>First text</p>
+            </div>-->
         </div>
-	</header>
-	<!-- end header -->
-	<section id="banner"><br><br><br><br><br>
+        <div class="carousel-item">
+            <!--Mask color-->
+            <div class="view">
+                <img class="d-block w-100" src="img/overlays/carousel_1.png" alt="Second slide">
+                <div class="mask flex-center waves-effect waves-light rgba-teal-strong">
+                    <ul>
+                        <li>
+                            <h3 class="h3-responsive" align="center">Healthcare to the optimum with speed</h3>
+                        </li>
+                        <li>
+                            <h5 class="h5-responsive" align="center">We manage your health for you</h5>
+                        </li>
+                        <li>
+                            <button type="button" class="btn purple-gradient btn-lg cara-button_2">Health Prediction</button>
+                            <button type="button" class="btn peach-gradient btn-lg cara-button_1">Monitor Your Health Daily</button>
+                        </li>
+                    </ul>
+                </div>
+            </div>
 
-	<!-- Slider -->
-        <div id="main-slider" class="flexslider">
-            <ul class="slides">
-              <li>
-                <img src="img/slides/3.png" alt="" />
-                <div class="flex-caption">
-                    <h3>HEALTH MANAGER</h3>
-					<p>We manage your health for you</p>
-					 
-                </div>
-              </li>
-              <li>
-                <img src="img/slides/4.png" alt="" />
-                <div class="flex-caption">
-                    <h3>BETTER CARE</h3> 
-					<p>We your health is our responsibility.</p>
-					 
-                </div>
-              </li>
-            </ul>
         </div>
-	<!-- end slider -->
- 
-	</section> 
-	<section id="call-to-action-2">
-		<div class="container">
-			<div class="row">
-				<div class="col-md-10 col-sm-9">
-					<h3>Welcome to Sarpmedic Healthcare</h3>
-					<p>We provide the platform where you can follow your health daily by providing both only system which can directly help
-						you to constant follow your health for long life growth.
-					</p>
-				</div>
-				<div class="col-md-2 col-sm-3">
-					<a href="#" class="btn btn-primary">Read More</a>
-				</div>
-			</div>
-		</div>
-	</section>
+        <div class="carousel-item">
+            <!--Mask color-->
+            <div class="view">
+                <img class="d-block w-100" src="img/overlays/carousel_2.png" alt="Third slide">
+                <div class="mask flex-center waves-effect waves-light rgba-teal-strong">
+                    <ul>
+                        <li>
+                            <h3 class="h3-responsive" align="center">Healthcare to the optimum with speed</h3>
+                        </li>
+                        <li>
+                            <h5 class="h5-responsive" align="center">We manage your health for you</h5>
+                        </li>
+                        <li>
+                            <button type="button" class="btn purple-gradient btn-lg cara-button_2">Health Prediction</button>
+                            <button type="button" class="btn peach-gradient btn-lg cara-button_1">Monitor Your Health Daily</button>
+                        </li>
+                    </ul>
+                </div>
+            </div>
 
-	<section id="content">
-	
-	
-	<div class="container">
-	    	<div class="row">
-			<div class="col-md-12">
-				<div class="aligncenter"><h2 class="aligncenter">Our Services</h2>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores quae porro consequatur aliquam, incidunt eius magni provident, doloribus omnis minus ovident, doloribus omnis minus temporibus perferendis nesciunt..</div>
-				<br/>
-			</div>
-		</div>
-			<div class="row">
-		<div class="skill-home"> <div class="skill-home-solid clearfix"> 
-		<div class="col-md-3 text-center">
-		<span class="icons c1"><i class="fa fa-ambulance"></i></span> <div class="box-area">
-		<h3>Certificate and Examination</h3> <p>Lorem ipsum dolor sitamet, consec tetur adipisicing elit.</p></div>
-		</div>
-		<div class="col-md-3 text-center"> 
-		<span class="icons c2"><i class="fa fa-stethoscope" aria-hidden="true"></i></span> <div class="box-area">
-		<h3>Health Screening</h3> <p>Lorem ipsum dolor sitamet, consec tetur adipisicing elit.</p></div>
-		</div>
-		<div class="col-md-3 text-center"> 
-		<span class="icons c3"><i class="fa fa-hospital-o" aria-hidden="true"></i></span> <div class="box-area">
-		<h3>Personal health</h3> <p>Lorem ipsum dolor sitamet, consec tetur adipisicing elit.</p></div>
-		</div>
-		<div class="col-md-3 text-center"> 
-		<span class="icons c4"><i class="fa fa-globe"></i></span> <div class="box-area">
-		<h3>Corporate Health</h3> <p>Lorem ipsum dolor sitamet, consec tetur adipisicing elit.</p>
-		</div></div>
-		</div></div>
-		</div> 
-	 <div class="row">
-		<div class="skill-home"> <div class="skill-home-solid clearfix">
-		<div class="col-md-3 text-center">
-		<span class="icons c1"><i class="fa fa-medkit" aria-hidden="true"></i></span> <div class="box-area">
-		<h3>School Health</h3> <p>Lorem ipsum dolor sitamet, consec tetur adipisicing elit.</p></div>
-		</div>
-		<div class="col-md-3 text-center">
-		<span class="icons c2"><i class="fa fa-user-md" aria-hidden="true"></i></span> <div class="box-area">
-		<h3>Family Health</h3> <p>Lorem ipsum dolor sitamet, consec tetur adipisicing elit.</p></div>
-		</div>
-		<div class="col-md-3 text-center">
-		<span class="icons c3"><i class="fa fa-wheelchair" aria-hidden="true"></i></span> <div class="box-area">
-		<h3>Nutrition and Fitness</h3> <p>Lorem ipsum dolor sitamet, consec tetur adipisicing elit.</p></div>
-		</div>
-		<div class="col-md-3 text-center">
-		<span class="icons c4"><i class="fa fa-h-square" aria-hidden="true"></i></span> <div class="box-area">
-		<h3>Equipment and Service</h3> <p>Lorem ipsum dolor sitamet, consec tetur adipisicing elit.</p>
-		</div></div>
-		</div></div>
-		</div>
-
-
-	</div>
-	</section>
-
-
-	<section id="getting_started_main" class="section-padding gray-bg"  style="background: url('img/slides/5.png') center center repeat; background-size: cover;">
-		<div class="container main_container">
-			<div class="row get_started">
-				<div class="col-md-12 col-lg-8 col-sm-12">
-					<div class="getting_started_description">
-						<div class="get_started_content"><h1 class="content_h1">Imagine your health!</h1></div>
-						<div class="get_started_content"><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-							Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p></div>
-					</div>
-				</div>
-				<div class="col-md-12 col-lg-4 col-sm-12">
-					<div class="getting_started_button" align="center">
-							<a href="#" class="btn btn-medium">Get started!</a>
-					</div>
-				</div>
-			</div>
-		</div>
-	</section>
-
-
-	<section id="inner-headline">
-		<div class="container">
-
-			<div class="row">
-				<div class="col-lg-12">
-					<h2 class="pageTitle">Packages</h2>
-				</div>
-			</div>
-		</div>
-	</section>
-	<section id="content">
-		<div class="container">
-<!--
-			<div class="row">
-				<div class="col-md-12">
-					<div class="about-logo">
-						<h3>Voluptatem Accusantium Doloremque</h3>
-					</div>
-				</div>
-			</div>
--->
-			<!-- end divider -->
-			<div class="row">
-				<div class="col-lg-12">
-				</div>
-				<div class="col-lg-3">
-					<div class="pricing-box-item">
-						<div class="pricing-heading">
-							<h3><strong>Basic</strong></h3>
-						</div>
-						<div class="pricing-container">
-							<ul>
-								<li><i class="icon-ok"></i> Content in here </li>
-								<li><i class="icon-ok"></i>  Content in here </li>
-								<li><i class="icon-ok"></i>  Content in here </li>
-								<li><i class="icon-ok"></i>  Content in here </li>
-								<li><i class="icon-ok"></i>  Content in here </li>
-								<li><i class="icon-ok"></i>  Content in here </li>
-
-							</ul>
-						</div>
-						<div class="pricing-action">
-							<a href="#" class="btn btn-medium"><i class="icon-bolt"></i> Get Now</a>
-						</div>
-					</div>
-				</div>
-
-				<div class="col-lg-3">
-					<div class="pricing-box-item">
-						<div class="pricing-heading">
-							<h3><strong>Basic</strong></h3>
-						</div>
-						<div class="pricing-container">
-							<ul>
-								<li><i class="icon-ok"></i> Content in here </li>
-								<li><i class="icon-ok"></i>  Content in here </li>
-								<li><i class="icon-ok"></i>  Content in here </li>
-								<li><i class="icon-ok"></i>  Content in here </li>
-								<li><i class="icon-ok"></i>  Content in here </li>
-								<li><i class="icon-ok"></i>  Content in here </li>
-
-							</ul>
-						</div>
-						<div class="pricing-action">
-							<a href="#" class="btn btn-medium"><i class="icon-bolt"></i> Get Now</a>
-						</div>
-					</div>
-				</div>
-				<div class="col-lg-3">
-					<div class="pricing-box-item">
-						<div class="pricing-heading">
-							<h3><strong>Basic</strong></h3>
-						</div>
-						<div class="pricing-container">
-							<ul>
-								<li><i class="icon-ok"></i> Content in here </li>
-								<li><i class="icon-ok"></i>  Content in here </li>
-								<li><i class="icon-ok"></i>  Content in here </li>
-								<li><i class="icon-ok"></i>  Content in here </li>
-								<li><i class="icon-ok"></i>  Content in here </li>
-								<li><i class="icon-ok"></i>  Content in here </li>
-
-							</ul>
-						</div>
-						<div class="pricing-action">
-							<a href="#" class="btn btn-medium"><i class="icon-bolt"></i> Get Now</a>
-						</div>
-					</div>
-				</div>
-				<div class="col-lg-3">
-					<div class="pricing-box-item">
-						<div class="pricing-heading">
-							<h3><strong>Basic</strong></h3>
-						</div>
-						<div class="pricing-container">
-							<ul>
-								<li><i class="icon-ok"></i> Content in here </li>
-								<li><i class="icon-ok"></i>  Content in here </li>
-								<li><i class="icon-ok"></i>  Content in here </li>
-								<li><i class="icon-ok"></i>  Content in here </li>
-								<li><i class="icon-ok"></i>  Content in here </li>
-								<li><i class="icon-ok"></i>  Content in here </li>
-
-							</ul>
-						</div>
-						<div class="pricing-action">
-							<a href="#" class="btn btn-medium"><i class="icon-bolt"></i> Get Now</a>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</section>
-
-	<section class="section-padding gray-bg"  style="background: url('img/slides/4.png') center center repeat; background-size: cover;">
-		<div class="container">
-			<div class="row">
-				<div class="col-md-12">
-					<div class="section-title text-center text_platform">
-						<h2 class="platform">Our Platform</h2>
-						<h4 class="how_it_works">How it works?</h4>
-						<p style="font-size: 18px;">Curabitur aliquet quam id dui posuere blandit. Donec sollicitudin molestie malesuada Pellentesque <br>ipsum id orci porta dapibus. Vivamus suscipit tortor eget felis porttitor volutpat.</p>
-					</div>
-				</div>
-			</div>
-			<div class="row">
-				<div class="col-md-12 col-sm-12" align="center">
-					<a href="#" class="btn btn-medium">Get started with us</a>
-				</div>
-			</div>
-		</div>
-	</section>
-
-	<!-- Heading -->
-	<div class="block-heading-six our_partner_head" align="center">
-		<h4 class="bg-color our_partner">Our Partners</h4>
-	</div>
-	<br>
-
-	<!-- Our partners starts -->
-
-	<div class="team-six">
-		<div class="container">
-			<div class="row">
-				<div class="col-md-3 col-sm-6">
-					<div class="team-member">
-						<img class="img-responsive" src="img/slides/7.png" alt="">
-						<h4>google</h4>
-						<span class="deg">software</span>
-					</div>
-				</div>
-				<div class="col-md-3 col-sm-6">
-					<div class="team-member">
-						<img class="img-responsive" src="img/slides/6.png" alt="">
-						<h4>google</h4>
-						<span class="deg">software</span>
-					</div>
-				</div>
-				<div class="col-md-3 col-sm-6">
-					<div class="team-member">
-						<img class="img-responsive" src="img/slides/6.png" alt="">
-						<h4>google</h4>
-						<span class="deg">software</span>
-					</div>
-				</div>
-				<div class="col-md-3 col-sm-6">
-					<div class="team-member">
-						<img class="img-responsive" src="img/slides/7.png" alt="">
-						<h4>google</h4>
-						<span class="deg">software</span>
-					</div>
-				</div>
-			</div>
-
-		</div>
-	</div>
-
-	<!-- Our partners ends -->
-
-	<div class="about home-about">
-		<div class="container">
-			<br><br>
-		</div>
-	</div>
-
-					
-
-	<footer>
-	<div class="container">
-		<div class="row">
-			<div class="col-lg-3">
-				<div class="widget">
-					<h5 class="widgetheading">Our Contact</h5>
-					<address>
-					<strong>SarpMedic Company Inc</strong><br>
-					TopHigh Main Road, Kumasi tower<br>
-					 Pin-21542 Kumasi GH.</address>
-					<p>
-						<i class="icon-phone"></i> (+233) 24 134 5675 <br>
-						<i class="icon-envelope-alt"></i> info@sarpmedic.com
-					</p>
-				</div>
-			</div>
-			<div class="col-lg-3">
-				<div class="widget">
-					<h5 class="widgetheading">Quick Links</h5>
-					<ul class="link-list">
-						<li><a href="#">Latest Events</a></li>
-						<li><a href="#">Terms and conditions</a></li>
-						<li><a href="#">Privacy policy</a></li>
-						<li><a href="#">Career</a></li>
-						<li><a href="#">Contact us</a></li>
-					</ul>
-				</div>
-			</div>
-			<div class="col-lg-3">
-				<div class="widget">
-					<h5 class="widgetheading">Subscribe our Health tips!</h5>
-					<form name="sentMessage" id="contactForm"  novalidate>
-						<div class="control-group">
-							<div class="controls">
-								<input type="email" class="form-control" placeholder="Email"
-									   id="email" required
-									   data-validation-required-message="Please enter your email" />
-							</div>
-						</div>
-						<div class="subscript_tip">
-							<button type="submit" class="btn btn-primary pull-right tips">Send</button>
-						</div>
-					</form>
-				</div>
-			</div>
-			<div class="col-lg-3">
-				<div class="widget">
-					<h5 class="widgetheading">Recent News</h5>
-					<ul class="link-list">
-						<li><a href="#">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</a></li>
-						<li><a href="#">Pellentesque et pulvinar enim. Quisque at tempor ligula</a></li>
-						<li><a href="#">Natus error sit voluptatem accusantium doloremque</a></li>
-					</ul>
-				</div>
-			</div>
-		</div>
-	</div>
-	<div id="sub-footer">
-		<div class="container">
-			<div class="row">
-				<div class="col-lg-6">
-					<div class="copyright">
-						<p>
-							<span>&copy; sarpmedic 2018 All right reserved. By </span><a href="">sarpmedic</a>
-						</p>
-					</div>
-				</div>
-				<div class="col-lg-6">
-					<ul class="social-network">
-						<li><a href="#" data-placement="top" title="Facebook"><i class="fa fa-facebook"></i></a></li>
-						<li><a href="#" data-placement="top" title="Twitter"><i class="fa fa-twitter"></i></a></li>
-						<li><a href="#" data-placement="top" title="Linkedin"><i class="fa fa-linkedin"></i></a></li>
-						<li><a href="#" data-placement="top" title="Pinterest"><i class="fa fa-pinterest"></i></a></li>
-						<li><a href="#" data-placement="top" title="Google plus"><i class="fa fa-google-plus"></i></a></li>
-					</ul>
-				</div>
-			</div>
-		</div>
-	</div>
-	</footer>
+        </div>
+    </div>
+    <!--/.Slides-->
+    <!--Controls-->
+    <a class="carousel-control-prev" href="#carousel-example-2" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+    </a>
+    <a class="carousel-control-next" href="#carousel-example-2" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+    </a>
+    <!--/.Controls-->
 </div>
+<!--/.Carousel Wrapper-->
+
+
+
+<!-- Section: Features v.2 -->
+<section class="my-5">
+
+   <div class="container">
+
+       <!-- Section: Features v.1 -->
+       <section class="text-center my-5">
+
+           <!-- Section heading -->
+           <h2 class="h1-responsive font-weight-bold my-5">What We Do</h2>
+           <!-- Section description -->
+           <p class="lead grey-text w-responsive mx-auto mb-5">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+
+           <!-- Grid row -->
+           <div class="row">
+
+               <!-- Grid column -->
+               <div class="col-md-4">
+
+                   <i class="fa fa-area-chart fa-3x red-text"></i>
+                   <h5 class="font-weight-bold my-4">Analytics</h5>
+                   <p class="grey-text mb-md-0 mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit maiores aperiam minima assumenda deleniti hic.
+                   </p>
+
+               </div>
+               <!-- Grid column -->
+
+               <!-- Grid column -->
+               <div class="col-md-4">
+
+                   <i class="fa fa-book fa-3x cyan-text"></i>
+                   <h5 class="font-weight-bold my-4">Tutorials</h5>
+                   <p class="grey-text mb-md-0 mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit maiores aperiam minima assumenda deleniti hic.
+                   </p>
+
+               </div>
+               <!-- Grid column -->
+
+               <!-- Grid column -->
+               <div class="col-md-4">
+
+                   <i class="fa fa-comments-o fa-3x orange-text"></i>
+                   <h5 class="font-weight-bold my-4">Support</h5>
+                   <p class="grey-text mb-0">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit maiores aperiam minima assumenda deleniti hic.
+                   </p>
+
+               </div>
+               <!-- Grid column -->
+
+           </div><br><br><br>
+           <div class="row">
+
+               <!-- Grid column -->
+               <div class="col-md-4">
+
+                   <i class="fa fa-area-chart fa-3x red-text"></i>
+                   <h5 class="font-weight-bold my-4">Analytics</h5>
+                   <p class="grey-text mb-md-0 mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit maiores aperiam minima assumenda deleniti hic.
+                   </p>
+
+               </div>
+               <!-- Grid column -->
+
+               <!-- Grid column -->
+               <div class="col-md-4">
+
+                   <i class="fa fa-book fa-3x cyan-text"></i>
+                   <h5 class="font-weight-bold my-4">Tutorials</h5>
+                   <p class="grey-text mb-md-0 mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit maiores aperiam minima assumenda deleniti hic.
+                   </p>
+
+               </div>
+               <!-- Grid column -->
+
+               <!-- Grid column -->
+               <div class="col-md-4">
+
+                   <i class="fa fa-comments-o fa-3x orange-text"></i>
+                   <h5 class="font-weight-bold my-4">Support</h5>
+                   <p class="grey-text mb-0">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit maiores aperiam minima assumenda deleniti hic.
+                   </p>
+
+               </div>
+               <!-- Grid column -->
+
+           </div><br><br>
+           <!-- Grid row -->
+
+       </section>
+       <!-- Section: Features v.1 -->
+
+   </div>
+</section>
+<!-- Section: Features v.2 -->
+
+<div id="carousel-example-2" class="carousel slide carousel-fade" data-ride="carousel">
+    <!--Indicators-->
+    <ol class="carousel-indicators">
+        <li data-target="#carousel-example-2" data-slide-to="0" class="active"></li>
+        <li data-target="#carousel-example-2" data-slide-to="1"></li>
+        <li data-target="#carousel-example-2" data-slide-to="2"></li>
+    </ol>
+    <!--/.Indicators-->
+    <!--Slides-->
+    <div class="carousel-inner" role="listbox">
+        <div class="carousel-item active">
+            <div class="view">
+                <img class="d-block w-100" src="img/overlays/1.PNG" alt="First slide">
+                <div class="mask flex-center waves-effect waves-light rgba-teal-strong">
+                    <h3 class="h3-responsive">It is working</h3>
+                </div>
+            </div>
+            <!--<div class="carousel-caption">
+                <h3 class="h3-responsive">Light mask</h3>
+                <p>First text</p>
+            </div>-->
+        </div>
+        <div class="carousel-item">
+            <!--Mask color-->
+            <div class="view">
+                <img class="d-block w-100" src="img/overlays/1.PNG" alt="Second slide">
+                <div class="mask flex-center waves-effect waves-light rgba-teal-strong">
+
+                </div>
+            </div>
+
+        </div>
+        <div class="carousel-item">
+            <!--Mask color-->
+            <div class="view">
+                <img class="d-block w-100" src="img/overlays/1.PNG" alt="Third slide">
+                <div class="mask flex-center waves-effect waves-light rgba-teal-strong">
+
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <!--/.Slides-->
+    <!--Controls-->
+    <a class="carousel-control-prev" href="#carousel-example-2" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+    </a>
+    <a class="carousel-control-next" href="#carousel-example-2" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+    </a>
+    <!--/.Controls-->
+</div>
+
+
+<!--Section: Features v.4-->
+<section>
+
+    <!--Section heading-->
+    <h1 class="py-5 font-weight-bold text-center">Why is it so great?</h1>
+    <!--Section description-->
+    <!--<p class="px-5 mb-5 pb-3 lead grey-text text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
+        aliqua. Ut enim ad minim veniam.</p>
+-->
+    <!--Grid row-->
+    <div class="container">
+        <div class="row">
+
+            <!--Grid column-->
+            <div class="col-md-4">
+
+                <!--Grid row-->
+                <div class="row mb-2">
+                    <!--<div class="col-2">
+                        <i class="fa fa-2x fa-flag-checkered deep-purple-text"></i>
+                    </div>-->
+                    <div class="col-12 text-left">
+                        <h5 class="font-weight-bold">International</h5>
+                        <p class="grey-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit maiores nam, aperiam minima assumenda
+                            deleniti hic.</p>
+                    </div>
+                </div>
+                <!--Grid row-->
+
+                <!--Grid row-->
+                <div class="row mb-2">
+                    <!--<div class="col-2">
+                        <i class="fa fa-2x fa-flask deep-purple-text"></i>
+                    </div>-->
+                    <div class="col-12 text-left">
+                        <h5 class="font-weight-bold">Experimental</h5>
+                        <p class="grey-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit maiores nam, aperiam minima assumenda
+                            deleniti hic.</p>
+                    </div>
+                </div>
+                <!--Grid row-->
+
+                <!--Grid row-->
+                <div class="row mb-2">
+                    <!--<div class="col-2">
+                        <i class="fa fa-2x fa-glass deep-purple-text"></i>
+                    </div>-->
+                    <div class="col-12 text-left">
+                        <h5 class="font-weight-bold">Relaxing</h5>
+                        <p class="grey-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit maiores nam, aperiam minima assumenda
+                            deleniti hic.</p>
+                    </div>
+                </div>
+                <!--Grid row-->
+
+            </div>
+            <!--Grid column-->
+
+            <!--Grid column-->
+            <div class="col-md-4 mb-2 center-on-small-only flex-center">
+<!--
+                <img src="https://mdbootstrap.com/img/Mockups/Transparent/Small/iphone-portfolio1.png" alt="" class="z-depth-0">
+-->
+            </div>
+            <!--Grid column-->
+
+            <!--Grid column-->
+            <div class="col-md-4">
+
+                <!--Grid row-->
+                <div class="row mb-2">
+                    <!--<div class="col-2">
+                        <i class="fa fa-2x fa-heart deep-purple-text"></i>
+                    </div>-->
+                    <div class="col-12 text-left">
+                        <h5 class="font-weight-bold">Beloved</h5>
+                        <p class="grey-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit maiores nam, aperiam minima assumenda
+                            deleniti hic.</p>
+                    </div>
+                </div>
+                <!--Grid row-->
+
+                <!--Grid row-->
+                <div class="row mb-2">
+                    <!--<div class="col-2">
+                        <i class="fa fa-2x fa-flash deep-purple-text"></i>
+                    </div>-->
+                    <div class="col-12 text-left">
+                        <h5 class="font-weight-bold">Rapid</h5>
+                        <p class="grey-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit maiores nam, aperiam minima assumenda
+                            deleniti hic.</p>
+                    </div>
+                </div>
+                <!--Grid row-->
+
+                <!--Grid row-->
+                <div class="row mb-2">
+                    <!--<div class="col-2">
+                        <i class="fa fa-2x fa-magic deep-purple-text"></i>
+                    </div>-->
+                    <div class="col-12 text-left">
+                        <h5 class="font-weight-bold">Magical</h5>
+                        <p class="grey-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit maiores nam, aperiam minima assumenda
+                            deleniti hic.</p>
+                    </div>
+                </div>
+                <!--Grid row-->
+
+            </div>
+            <!--Grid column-->
+
+        </div>
+
+    </div>
+    <!--Grid row-->
+
+</section>
+<!--/Section: Features v.4-->
+
+<br>
+<br>
+
+
+
+<!-- Card -->
+<div class="card card-image mb-3" style="background-image: url(img/overlays/1.PNG);">
+
+    <!-- Content -->
+    <div class="text-white text-center d-flex align-items-center rgba-black-strong py-5 px-4">
+        <div>
+            <h5 class="pink-text"><i class="fa fa-pie-chart"></i> Marketing</h5>
+            <h3 class="card-title pt-2"><strong>This is card title</strong></h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat fugiat, laboriosam, voluptatem,
+                optio vero odio nam sit officia accusamus minus error nisi architecto nulla ipsum dignissimos.
+                Odit sed qui, dolorum!.</p>
+            <a class="btn btn-pink"><i class="fa fa-clone left"></i> View project</a>
+        </div>
+    </div>
+    <!-- Content -->
+</div>
+<!-- Card -->
+<br>
+<br>
+<br>
+<br>
+<br>
+<section>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-3">
+
+                <ul class="list-group">
+                    <li class="list-group-item">Cras justo odio</li>
+                    <li class="list-group-item">Dapibus ac facilisis in</li>
+                    <li class="list-group-item">Morbi leo risus</li>
+                    <li class="list-group-item">Porta ac consectetur ac</li>
+                    <li class="list-group-item">Vestibulum at eros</li>
+                </ul>
+
+            </div>
+            <div class="col-lg-3">
+
+                <ul class="list-group">
+                    <li class="list-group-item">Cras justo odio</li>
+                    <li class="list-group-item">Dapibus ac facilisis in</li>
+                    <li class="list-group-item">Morbi leo risus</li>
+                    <li class="list-group-item">Porta ac consectetur ac</li>
+                    <li class="list-group-item">Vestibulum at eros</li>
+                </ul>
+
+            </div><br>
+            <div class="col-lg-3">
+
+                <ul class="list-group">
+                    <li class="list-group-item">Cras justo odio</li>
+                    <li class="list-group-item">Dapibus ac facilisis in</li>
+                    <li class="list-group-item">Morbi leo risus</li>
+                    <li class="list-group-item">Porta ac consectetur ac</li>
+                    <li class="list-group-item">Vestibulum at eros</li>
+                </ul>
+
+            </div>
+            <div class="col-lg-3">
+
+                <ul class="list-group">
+                    <li class="list-group-item">Cras justo odio</li>
+                    <li class="list-group-item">Dapibus ac facilisis in</li>
+                    <li class="list-group-item">Morbi leo risus</li>
+                    <li class="list-group-item">Porta ac consectetur ac</li>
+                    <li class="list-group-item">Vestibulum at eros</li>
+                </ul>
+
+            </div>
+        </div>
+    </div>
+</section>
+
+<section>
+    <div class="container">
+        <div class="row">
+            <br><br><br><br><br><br>
+        </div>
+    </div>
+</section>
+
+<br><br><br>
+<!-- Footer -->
+<footer class="page-footer font-small mdb-color pt-4 mt-4">
+
+    <!-- Footer Links -->
+    <div class="container text-center text-md-left">
+
+        <!-- Footer links -->
+        <div class="row text-center text-md-left mt-3 pb-3">
+
+            <!-- Grid column -->
+            <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
+                <h6 class="text-uppercase mb-4 font-weight-bold">Company name</h6>
+                <p>Here you can use rows and columns here to organize your footer content. Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+            </div>
+            <!-- Grid column -->
+
+            <hr class="w-100 clearfix d-md-none">
+
+            <!-- Grid column -->
+            <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
+                <h6 class="text-uppercase mb-4 font-weight-bold">Products</h6>
+                <p><a href="#!">MDBootstrap</a></p>
+                <p><a href="#!">MDWordPress</a></p>
+                <p><a href="#!">BrandFlow</a></p>
+                <p><a href="#!">Bootstrap Angular</a></p>
+            </div>
+            <!-- Grid column -->
+
+            <hr class="w-100 clearfix d-md-none">
+
+            <!-- Grid column -->
+            <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mt-3">
+                <h6 class="text-uppercase mb-4 font-weight-bold">Useful links</h6>
+                <p><a href="#!">Your Account</a></p>
+                <p><a href="#!">Become an Affiliate</a></p>
+                <p><a href="#!">Shipping Rates</a></p>
+                <p><a href="#!">Help</a></p>
+            </div>
+
+            <!-- Grid column -->
+            <hr class="w-100 clearfix d-md-none">
+
+            <!-- Grid column -->
+            <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mt-3">
+                <h6 class="text-uppercase mb-4 font-weight-bold">Contact</h6>
+                <p><i class="fa fa-home mr-3"></i> New York, NY 10012, US</p>
+                <p><i class="fa fa-envelope mr-3"></i> info@gmail.com</p>
+                <p><i class="fa fa-phone mr-3"></i> + 01 234 567 88</p>
+                <p><i class="fa fa-print mr-3"></i> + 01 234 567 89</p>
+            </div>
+            <!-- Grid column -->
+
+        </div>
+        <!-- Footer links -->
+
+        <hr>
+
+        <!-- Grid row -->
+        <div class="row d-flex align-items-center">
+
+            <!-- Grid column -->
+            <div class="col-md-8 col-lg-8">
+
+                <!--Copyright-->
+                <p class="text-center text-md-left">© 2018 Copyright: <a href="https://mdbootstrap.com/bootstrap-tutorial/"><strong> MDBootstrap.com</strong></a></p>
+
+            </div>
+            <!-- Grid column -->
+
+            <!-- Grid column -->
+            <div class="col-md-4 col-lg-4 ml-lg-0">
+
+                <!-- Social buttons -->
+                <div class="text-center text-md-right">
+                    <ul class="list-unstyled list-inline">
+                        <li class="list-inline-item"><a class="btn-floating btn-sm rgba-white-slight mx-1"><i class="fa fa-facebook"></i></a></li>
+                        <li class="list-inline-item"><a class="btn-floating btn-sm rgba-white-slight mx-1"><i class="fa fa-twitter"></i></a></li>
+                        <li class="list-inline-item"><a class="btn-floating btn-sm rgba-white-slight mx-1"><i class="fa fa-google-plus"></i></a></li>
+                        <li class="list-inline-item"><a class="btn-floating btn-sm rgba-white-slight mx-1"><i class="fa fa-linkedin"></i></a></li>
+                    </ul>
+                </div>
+
+            </div>
+            <!-- Grid column -->
+
+        </div>
+        <!-- Grid row -->
+
+    </div>
+    <!-- Footer Links -->
+
+</footer>
+<!-- Footer -->
 <a href="#" class="scrollup"><i class="fa fa-angle-up active"></i></a>
 
 
-<script src="js/jquery.js"></script>
-<script src="js/bootstrap.min.js"></script>
-
-<script src="js/jquery.flexslider.js"></script>
-<script src="js/custom.js"></script>
+<!-- SCRIPTS -->
+    <!-- JQuery -->
+    <script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
+    <!-- Bootstrap tooltips -->
+    <script type="text/javascript" src="js/popper.min.js"></script>
+    <!-- Bootstrap core JavaScript -->
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <!-- MDB core JavaScript -->
+    <script type="text/javascript" src="js/mdb.min.js"></script>
+    <!-- custom JavaScript -->
+    <script type="text/javascript" src="js/main.js"></script>
 
 </body>
+
 </html>
