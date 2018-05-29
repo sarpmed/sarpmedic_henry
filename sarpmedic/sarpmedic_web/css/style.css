@@ -301,3 +301,37 @@ a.scrollup i:hover {
     padding-right: 10px;
     font-weight: bold;
 }
+
+/*contact page*/
+.contact_intro{
+    line-height: 20px;
+    margin-bottom: 90px!important;
+}
+.contact_button{
+    background: #f6f50d!important;
+    margin-top: 30px;
+    color: #585805 !important;
+    font-weight: bold;
+}
+
+.address_number{
+    line-height: 30px;
+}
+.blue-text{
+    color: #f6f50d!important;
+}
+.pr-2{
+    line-height: 30px;
+    color: #0b2a41;
+}
+.contact_right{
+    padding: 10px;
+    background: #f6f50d!important;
+    color: #0b2a41!important;
+    font-weight: 500;
+}
+.cont_info{
+    font-size: 18px;
+    font-weight: bold;
+    font-family: 'Roboto', Arial, Tahoma, sans-serif;
+}
