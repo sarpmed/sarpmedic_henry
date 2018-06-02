@@ -335,3 +335,37 @@ a.scrollup i:hover {
     font-weight: bold;
     font-family: 'Roboto', Arial, Tahoma, sans-serif;
 }
+
+/*about page*/
+.about_img_div{
+    margin:50px 0 50px 0;
+}
+.about_main_text{
+    margin: 50px 0 36px 0;
+    line-height:27px;
+
+}
+.about_main_text_core_values{
+    margin: 0 0 50px 0;
+    line-height:27px;
+
+}
+.about_text_heading{
+    font-weight: bold;
+    font-size: 15px;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+    font-family: 'Roboto', Arial, Tahoma, sans-serif;
+}
+.about_text__content{
+    text-align: left;
+}
+.fa-chevron-circle-right{
+    margin-right: 10px;
+    font-size: 16px;
+    color: #e1e014;
+}
+.core_values{
+    padding:0;
+    line-height: 35px;
+}
